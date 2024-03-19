@@ -6,7 +6,7 @@
  
  body{
  
-  background-color: rgb(195, 62, 62);
+  background-color: black;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -18,9 +18,9 @@
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px ;
   background-color: #f9f9f9;
-  border: 3px solid yellow;
+  border: 3px solid rgb(0, 0, 0);
 }
 
 .inputs {
@@ -61,4 +61,9 @@
 
 .buttons button:hover {
   background-color: #a2a2a2;
+}
+
+:root{
+  background-color: black;
+
 }
